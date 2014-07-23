@@ -1,0 +1,32 @@
+.masthead {
+  background-color: #336880;
+  color: #ffffff;
+}
+
+.masthead .name {
+  font-size: 40px;
+  border: 1px solid white;
+  margin: 50px auto;
+  display: block;
+  text-align:center;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.masthead a {
+  color: white;
+}
+
+.masthead .lead {
+  margin: 50px auto;
+  display: block;
+  text-align:center;
+}
+.about .glyphicon {
+  font-size: 90px;
+}
+.about div {
+  margin: 50px auto 10px auto;
+  display: block;
+  text-align:center;
+}

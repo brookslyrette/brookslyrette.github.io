@@ -1,50 +1,67 @@
 <html>
 <head>
-    <link href="//netdna.bootstrapcdn.com/bootswatch/2.3.2/flatly/bootstrap.min.css" rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/custom.css" rel="stylesheet">
 </head>
-<body>
-<div class="navbar navbar-fixed-top">
-    <div class="navbar-inner">
-        <div class="container">
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </a>
-            <a class="brand" href="../">Lyrette.ca</a>
-            <div class="nav-collapse collapse" id="main-menu">
-                <ul class="nav" id="main-menu-left">
-                    <li><a href="http://mail.lyrette.ca">Mail</a></li>
-                    <li><a href="http://ca.linkedin.com/in/brooksl">LinkedIn</a></li>
-                    <!--<li><a href="http://tumblr.lyrette.ca">Tumblr</a></li>-->
-                    <!--<li><a href="http://twitter.com/Broonix">Twitter</a></li>-->
-                </ul>
-                <ul class="nav pull-right" id="main-menu-right">
+<header class="navbar-static-top" id="top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="../" class="navbar-brand">Lyrette.ca</a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li><a href="http://ca.linkedin.com/in/brooksl">LinkedIn</a></li>
+        <li><a href="http://twitter.com/broonix">Twitter</a></li>
+        <li><a href="https://github.com/brookslyrette">GitHub</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://mail.lyrette.ca">Email Login</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-                </ul>
-            </div>
-        </div>
+<main class="masthead" id="content" role="main">
+  <div class="container">
+    <span class="name lead">Brooks Lyrette</span>
+    <p class="lead">Software Engineer, Developer and chief technology officer at <a href="http://dotsub.com">Dotsub.com</a> <br/>
+    I'm a Mac addict, amateur guitarist, video game aficionado and much more.</p>
+  </div>
+</main>
+
+<div class="container">
+  <div class="row about">
+    <div class="col-md-4">
+      <span class="glyphicon glyphicon-hdd"></span>
+      <!-- <h4>Software</h4>
+      <p></p> -->
     </div>
+    <div class="col-md-4">
+      <span class="glyphicon glyphicon-music"></span>
+      <!-- <h4>Music</h4> -->
+    </div>
+    <div class="col-md-4">
+      <span class="glyphicon glyphicon-fire"></span>
+      <!-- <h4>Games</h4> -->
+    </div>
+  </div>
 </div>
-<div class="container" style="padding-top: 60px;">
+
+
+<div class="container">
     <div class="row">
-        <div class="span12">
-            <h2>Brooks Lyrette</h2>
-        </div>
-        <div class="span12 well">
-            <p class="lead">
-                Hello! I'm <b>Brooks</b>, <br/>
-                Software Engineer, Developer and Director of Technology at <a href="http://dotsub.com">Dotsub.com</a> <br/>
-                I'm a Mac addict, amateur guitarist, video game aficionado and much more.
-            </p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="span4">
+        <div class="col-md-4">
             <h3>Work</h3>
             <hr/>
             <h5>
-                Director of Technology <br/>
+                Chief Technology Officer <br/>
                 <a href="http://dotsub.com">Dotsub.com</a>
             </h5>
             <p>
@@ -93,7 +110,7 @@
                 </li>
             </ul>
         </div>
-        <div class="span4">
+        <div class="col-md-4">
             <h3>Connect</h3>
             <hr/>
             <p>
@@ -103,7 +120,7 @@
                 I can also be found on <a href="http://twitter.com/Broonix">Twitter</a>, <a href="http://ca.linkedin.com/in/brooksl">LinkedIn</a>, my never updated <a href="http://www.youtube.com/broonix">YouTube channel</a> and some where in the Ottawa area.
             </p>
         </div>
-        <div class="span4">
+        <div class="col-md-4">
             <h3>Twitter</h3>
             <hr/>
             <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/Broonix" data-widget-id="353869114663632897">Tweets by @Broonix</a>
